@@ -4,3 +4,5 @@
 用`CADisplayLink`实现
 
 使用`NSProxy`解决循环引用的问题
+
+![gif](https://github.com/YuePei/FPS/blob/master/fpsGif.gif)
