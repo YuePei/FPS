@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9F2207222140F7B20078FAF6 /* TargetProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F2207212140F7B20078FAF6 /* TargetProxy.m */; };
+		9F2207252140F8210078FAF6 /* FPSLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F2207242140F8210078FAF6 /* FPSLabel.m */; };
+		9F2207292140F89F0078FAF6 /* SecondVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F2207272140F89F0078FAF6 /* SecondVC.m */; };
+		9F22072A2140F89F0078FAF6 /* SecondVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9F2207282140F89F0078FAF6 /* SecondVC.xib */; };
 		9F224A84213D02DF00256813 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F224A83213D02DF00256813 /* AppDelegate.m */; };
 		9F224A87213D02DF00256813 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F224A86213D02DF00256813 /* ViewController.m */; };
 		9F224A8A213D02DF00256813 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F224A88213D02DF00256813 /* Main.storyboard */; };
@@ -16,6 +20,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9F2207202140F7B20078FAF6 /* TargetProxy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TargetProxy.h; sourceTree = "<group>"; };
+		9F2207212140F7B20078FAF6 /* TargetProxy.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TargetProxy.m; sourceTree = "<group>"; };
+		9F2207232140F8210078FAF6 /* FPSLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FPSLabel.h; sourceTree = "<group>"; };
+		9F2207242140F8210078FAF6 /* FPSLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FPSLabel.m; sourceTree = "<group>"; };
+		9F2207262140F89F0078FAF6 /* SecondVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondVC.h; sourceTree = "<group>"; };
+		9F2207272140F89F0078FAF6 /* SecondVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondVC.m; sourceTree = "<group>"; };
+		9F2207282140F89F0078FAF6 /* SecondVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SecondVC.xib; sourceTree = "<group>"; };
 		9F224A7F213D02DF00256813 /* Demo1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Demo1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F224A82213D02DF00256813 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		9F224A83213D02DF00256813 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -39,6 +50,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9F22071F2140F7970078FAF6 /* FPSLabel */ = {
+			isa = PBXGroup;
+			children = (
+				9F2207202140F7B20078FAF6 /* TargetProxy.h */,
+				9F2207212140F7B20078FAF6 /* TargetProxy.m */,
+				9F2207232140F8210078FAF6 /* FPSLabel.h */,
+				9F2207242140F8210078FAF6 /* FPSLabel.m */,
+			);
+			path = FPSLabel;
+			sourceTree = "<group>";
+		};
 		9F224A76213D02DF00256813 = {
 			isa = PBXGroup;
 			children = (
@@ -62,6 +84,10 @@
 				9F224A83213D02DF00256813 /* AppDelegate.m */,
 				9F224A85213D02DF00256813 /* ViewController.h */,
 				9F224A86213D02DF00256813 /* ViewController.m */,
+				9F2207262140F89F0078FAF6 /* SecondVC.h */,
+				9F2207272140F89F0078FAF6 /* SecondVC.m */,
+				9F2207282140F89F0078FAF6 /* SecondVC.xib */,
+				9F22071F2140F7970078FAF6 /* FPSLabel */,
 				9F224A88213D02DF00256813 /* Main.storyboard */,
 				9F224A8B213D02DF00256813 /* Assets.xcassets */,
 				9F224A8D213D02DF00256813 /* LaunchScreen.storyboard */,
@@ -131,6 +157,7 @@
 			files = (
 				9F224A8F213D02DF00256813 /* LaunchScreen.storyboard in Resources */,
 				9F224A8C213D02DF00256813 /* Assets.xcassets in Resources */,
+				9F22072A2140F89F0078FAF6 /* SecondVC.xib in Resources */,
 				9F224A8A213D02DF00256813 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -143,7 +170,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				9F224A87213D02DF00256813 /* ViewController.m in Sources */,
+				9F2207252140F8210078FAF6 /* FPSLabel.m in Sources */,
+				9F2207222140F7B20078FAF6 /* TargetProxy.m in Sources */,
 				9F224A92213D02DF00256813 /* main.m in Sources */,
+				9F2207292140F89F0078FAF6 /* SecondVC.m in Sources */,
 				9F224A84213D02DF00256813 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
