@@ -11,6 +11,7 @@
 		9F2207252140F8210078FAF6 /* FPSLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F2207242140F8210078FAF6 /* FPSLabel.m */; };
 		9F2207292140F89F0078FAF6 /* SecondVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F2207272140F89F0078FAF6 /* SecondVC.m */; };
 		9F22072A2140F89F0078FAF6 /* SecondVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9F2207282140F89F0078FAF6 /* SecondVC.xib */; };
+		9F22072D214107F50078FAF6 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F22072C214107F50078FAF6 /* Person.m */; };
 		9F224A84213D02DF00256813 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F224A83213D02DF00256813 /* AppDelegate.m */; };
 		9F224A87213D02DF00256813 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F224A86213D02DF00256813 /* ViewController.m */; };
 		9F224A8A213D02DF00256813 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F224A88213D02DF00256813 /* Main.storyboard */; };
@@ -27,6 +28,8 @@
 		9F2207262140F89F0078FAF6 /* SecondVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondVC.h; sourceTree = "<group>"; };
 		9F2207272140F89F0078FAF6 /* SecondVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondVC.m; sourceTree = "<group>"; };
 		9F2207282140F89F0078FAF6 /* SecondVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SecondVC.xib; sourceTree = "<group>"; };
+		9F22072B214107F50078FAF6 /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		9F22072C214107F50078FAF6 /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 		9F224A7F213D02DF00256813 /* Demo1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Demo1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F224A82213D02DF00256813 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		9F224A83213D02DF00256813 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -89,6 +92,8 @@
 				9F2207282140F89F0078FAF6 /* SecondVC.xib */,
 				9F22071F2140F7970078FAF6 /* FPSLabel */,
 				9F224A88213D02DF00256813 /* Main.storyboard */,
+				9F22072B214107F50078FAF6 /* Person.h */,
+				9F22072C214107F50078FAF6 /* Person.m */,
 				9F224A8B213D02DF00256813 /* Assets.xcassets */,
 				9F224A8D213D02DF00256813 /* LaunchScreen.storyboard */,
 				9F224A90213D02DF00256813 /* Info.plist */,
@@ -171,6 +176,7 @@
 			files = (
 				9F224A87213D02DF00256813 /* ViewController.m in Sources */,
 				9F2207252140F8210078FAF6 /* FPSLabel.m in Sources */,
+				9F22072D214107F50078FAF6 /* Person.m in Sources */,
 				9F2207222140F7B20078FAF6 /* TargetProxy.m in Sources */,
 				9F224A92213D02DF00256813 /* main.m in Sources */,
 				9F2207292140F89F0078FAF6 /* SecondVC.m in Sources */,

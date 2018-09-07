@@ -8,6 +8,7 @@
 
 #import "SecondVC.h"
 #import "FPSLabel.h"
+#import "TargetProxy.h"
 
 @interface SecondVC ()
 //fpsLabel
@@ -20,6 +21,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     [self fpsLabel];
+    
+    
 }
 
 - (IBAction)back:(UIButton *)sender {
